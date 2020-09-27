@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
@@ -12,7 +8,7 @@ namespace RockPaperScissors
         static void Main(string[] args)
         {
             Random r = new Random(); // Create random object
-            Type rpsType = typeof(rps); // Store the type of rps for use in enum methods
+            Type rpsType = typeof(RPS); // Store the type of rps for use in enum methods
             int count = Enum.GetValues(rpsType).Length; // Get the number of rock paper scissors elements
 
             string[] messages = { "Computer wins!", "It's a draw!", "Player wins!" };
@@ -20,19 +16,17 @@ namespace RockPaperScissors
             while(true)
             {
                 Console.WriteLine("Select one: ");
-                ListOptions(rpsType, count);
+                ListOptions(rpsType, count); // List options in enum
 
                 int userChoice;
                 do userChoice = AskForInt("Choice: "); // Get the user's choice
                 while(userChoice < 0 || userChoice >= count); // Continue to ask the user for their choice until they enter a valid option
 
-                int computerChoice = r.Next(count) + 1;
+                int computerChoice = r.Next(count) + 1; // Choose a random number from 1-count inclusive
+                Console.WriteLine("The computer chose " + Enum.GetName(rpsType, computerChoice - 1)); // Get and write the name of the computer's choice
 
-                int winner = Winner(userChoice, computerChoice, count);
-                Console.WriteLine(messages[winner + 1]);
-                Console.Write("Press any key to continue");
-                Console.ReadKey();
-
+                int winner = Winner(userChoice, computerChoice, count); // Find winner
+                Console.WriteLine(messages[winner + 1]); // Give win/lose/draw message
                 Console.WriteLine();
             }
         }
@@ -69,7 +63,7 @@ namespace RockPaperScissors
         }
 
         /// <summary>
-        /// Determine the winner of a RPS matchup
+        /// Determine the winner of a RPS matchup. 1-indexed.
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
@@ -112,7 +106,7 @@ namespace RockPaperScissors
             if(a == b) return 0;
 
             int c = count / 2;
-            Func<int, int> g = x =>
+            int g(int x) =>
                 x > count ? x - count : x; // Wrap x around so that it isn't greater than count
 
             int[] bounds = new int[] { g(a), g(a + c) };
@@ -124,7 +118,7 @@ namespace RockPaperScissors
             return -1;
         }
 
-        enum rps
+        enum RPS
         {
             Rock,
             Paper,
