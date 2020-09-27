@@ -1,0 +1,7 @@
+D:\Programming\Project files\_TechClub\RockPaperScissors\RPS-Simple\bin\Debug\RPS-Simple.exe.config
+D:\Programming\Project files\_TechClub\RockPaperScissors\RPS-Simple\bin\Debug\RPS-Simple.exe
+D:\Programming\Project files\_TechClub\RockPaperScissors\RPS-Simple\bin\Debug\RPS-Simple.pdb
+D:\Programming\Project files\_TechClub\RockPaperScissors\RPS-Simple\obj\Debug\RPS-Simple.csprojAssemblyReference.cache
+D:\Programming\Project files\_TechClub\RockPaperScissors\RPS-Simple\obj\Debug\RPS-Simple.csproj.CoreCompileInputs.cache
+D:\Programming\Project files\_TechClub\RockPaperScissors\RPS-Simple\obj\Debug\RPS-Simple.exe
+D:\Programming\Project files\_TechClub\RockPaperScissors\RPS-Simple\obj\Debug\RPS-Simple.pdb
