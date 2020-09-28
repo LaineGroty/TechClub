@@ -1,0 +1,7 @@
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Simple\obj\Debug\TicTacToe-Simple.csprojAssemblyReference.cache
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Simple\obj\Debug\TicTacToe-Simple.csproj.CoreCompileInputs.cache
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Simple\bin\Debug\TicTacToe-Simple.exe.config
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Simple\bin\Debug\TicTacToe-Simple.exe
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Simple\bin\Debug\TicTacToe-Simple.pdb
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Simple\obj\Debug\TicTacToe-Simple.exe
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Simple\obj\Debug\TicTacToe-Simple.pdb
