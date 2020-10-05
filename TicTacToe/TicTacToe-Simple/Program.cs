@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 
 namespace TicTacToe_Simple
@@ -47,7 +46,7 @@ namespace TicTacToe_Simple
                 // foreach(List<char> row in spaces)
                 //     Console.WriteLine(string.Join("", row));
 
-                if(spaces.SelectMany(c => c).All(c => c != '-')) // Flatten spaces into a 1D IEnumerable and check if all elements are -
+                if(spaces.SelectMany(c => c).All(c => c != '-')) // Flatten spaces into a 1D IEnumerable and check if all elements are the empty space
                 {
                     Console.WriteLine("Draw!");
                     return; // Escape Main(). This stops any more code in Main() from running and that's it.

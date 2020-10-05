@@ -1,0 +1,7 @@
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Scalable\bin\Debug\TicTacToe-Scalable.exe.config
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Scalable\bin\Debug\TicTacToe-Scalable.exe
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Scalable\bin\Debug\TicTacToe-Scalable.pdb
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Scalable\obj\Debug\TicTacToe-Scalable.csprojAssemblyReference.cache
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Scalable\obj\Debug\TicTacToe-Scalable.csproj.CoreCompileInputs.cache
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Scalable\obj\Debug\TicTacToe-Scalable.exe
+D:\Programming\Project files\_TechClub\TicTacToe\TicTacToe-Scalable\obj\Debug\TicTacToe-Scalable.pdb
