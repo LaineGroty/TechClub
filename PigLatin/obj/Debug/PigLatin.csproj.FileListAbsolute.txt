@@ -1,0 +1,7 @@
+D:\Programming\Project files\_TechClub\PigLatin\bin\Debug\PigLatin.exe.config
+D:\Programming\Project files\_TechClub\PigLatin\bin\Debug\PigLatin.exe
+D:\Programming\Project files\_TechClub\PigLatin\bin\Debug\PigLatin.pdb
+D:\Programming\Project files\_TechClub\PigLatin\obj\Debug\PigLatin.csprojAssemblyReference.cache
+D:\Programming\Project files\_TechClub\PigLatin\obj\Debug\PigLatin.csproj.CoreCompileInputs.cache
+D:\Programming\Project files\_TechClub\PigLatin\obj\Debug\PigLatin.exe
+D:\Programming\Project files\_TechClub\PigLatin\obj\Debug\PigLatin.pdb
