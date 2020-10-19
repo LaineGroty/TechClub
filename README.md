@@ -1,13 +1,11 @@
 # TechClub
-Tech Club project references for students
-Executables can be found in each project's bin folder
-Check ./Source/ for quick access to source code
-
+Tech Club project references for students<br>
+Executables can be found in each project's bin folder<br>
+Check ./Source/ for quick access to source code<br>
 Program details:
 * [Rock Paper Scissors](#rock-paper-scissors)
 * [Tic-Tac-Toe](#tic-tac-toe)
 * [Pig Latin](#pig-latin)
-
 
 # Rock-Paper-Scissors
 ### Simple:
