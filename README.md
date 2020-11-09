@@ -72,14 +72,20 @@ Write a class, "Vector," which has the following properties:
 * A horizontal component
 * A vertical component
 * A resultant
-* An angle
-These should all be doubles or floats! Using an int will lose lots of precision.
-The resultant and angle should be calculated based on the horizontal and vertical components. To do this, create [get-set blocks](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/using-properties) for the resultant and angle properties. Tip: it may be helpful to create a private field for both of these properties.
-The class should have the following properties:
+* An angle<br>
+
+These should all be doubles or floats! Using an int will lose lots of precision.<br>
+The resultant and angle should be calculated based on the horizontal and vertical components. To do this, create [get-set blocks](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/using-properties) for the resultant and angle properties. Tip: it may be helpful to create a private field for both of these properties.<br>
+<br>
+The class should have the following methods:
 * void SetResultant(double magnitude, bool changeHPart)
+  * Sets the resultant to the given magnitude
+  * If changeHPart is true, the horizontal component should be changed to make the new parameter work
+  * If changeHPart is false, the verctical component should be changed
 * void SetAngle(double angle, bool changeHPart)
-* Any other methods that you think may be helpful
-If changeHPart is true, the horizontal component should be changed to make the new parameter work.
+  * Same as above
+* Any other methods that you think may be helpful<br>
+<br>
 Vectors should be able to be added and subtracted from one another using [operator overloading](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/operator-overloading).
 ### Equations
 The equations needed for this program are here:<br>
