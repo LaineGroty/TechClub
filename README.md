@@ -6,6 +6,7 @@ Program details:
 * [Rock Paper Scissors](#rock-paper-scissors)
 * [Tic-Tac-Toe](#tic-tac-toe)
 * [Pig Latin](#pig-latin)
+* [Vector Adder](#vector-adder)
 
 # Rock-Paper-Scissors
 ### Simple:
@@ -62,5 +63,27 @@ Write a method for taking a string and converting its contents to pig latin. The
 1. If the word starts with a vowel, nothing should be moved.
 2. If the word starts with a consonant group, the entire first consonant group should be moved to the end of the word.
 3. The suffix should always be added to the end of a word.
-4. The capitalization of characters in the word should not be changed (including moved characters).
-For extra challenge, try allowing the user to 
+4. The capitalization of characters in the word should not be changed (including moved characters).<br>
+
+For extra challenge, try allowing the user to run the program with input parameters (e.g.: pigLatin.exe "this is my test string").
+
+# Vector adder
+Write a class, "Vector," which has the following properties:
+* A horizontal component
+* A vertical component
+* A resultant
+* An angle
+These should all be doubles or floats! Using an int will lose lots of precision.
+The resultant and angle should be calculated based on the horizontal and vertical components. To do this, create [get-set blocks](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/using-properties) for the resultant and angle properties. Tip: it may be helpful to create a private field for both of these properties.
+The class should have the following properties:
+* void SetResultant(double magnitude, bool changeHPart)
+* void SetAngle(double angle, bool changeHPart)
+* Any other methods that you think may be helpful
+If changeHPart is true, the horizontal component should be changed to make the new parameter work.
+Vectors should be able to be added and subtracted from one another using [operator overloading](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/operator-overloading).
+### Equations
+The equations needed for this program are here:<br>
+Length of hypotenuse: ![sqrt(x^2 + y^2)](https://latex.codecogs.com/gif.latex?\sqrt{x^2&plus;y^2})<br>
+Angle: ![arctan(y/x)](https://latex.codecogs.com/gif.latex?\frac{y}{x})<br>
+Length of x: ![sqrt(c^2 - y^2)](https://latex.codecogs.com/gif.latex?\sqrt{c^{2}-y^{2}})<br>
+Length of y: ![sqrt(c^2 - x^2)](https://latex.codecogs.com/gif.latex?\sqrt{c^{2}-x^{2}})<br>
